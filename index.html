@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Completa - La Taberna del Puerto</title>
+    <style>
+        :root {
+            --color-ofertas: #FF6B6B;
+            --color-bocadillos: #FFD93D;
+            --color-minibocadillos: #FF9F43;
+            --color-vermuts: #6C5CE7;
+            --color-tapeo: #00B894;
+            --color-tapas: #E84393;
+            --color-torradas: #FDCB6E;
+            --color-tablas: #A55EEA;
+            --color-especiales: #FD79A8;
+            --color-trios: #00CEC9;
+            --color-croquetas: #E17055;
+            --color-postres: #0984E3;
+        }
+
+        /* Estilos anteriores + nuevos */
+        .menu-category {
+            padding: 40px 0;
+            border-bottom: 3px solid var(--category-color);
+        }
+        
+        .category-title {
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            padding-left: 20px;
+            border-left: 5px solid var(--category-color);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Nav y Header (igual que antes) -->
+
+<section id="ofertas" class="menu-category" style="--category-color: var(--color-ofertas)">
+    <div class="container">
+        <h2 class="category-title">🔥 Ofertas Especiales</h2>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Menú Degustación Premium</h4>
+                <p>5 tapas selectas + postre + bebida premium</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Varios">V</div>
+                </div>
+            </div>
+            <span class="price">€19.90</span>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Jueves de Vermut</h4>
+                <p>Vermut + tapa seleccionada</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Sulfitos">S</div>
+                </div>
+            </div>
+            <span class="price">€6.50</span>
+        </div>
+
+        <!-- Añadir 23 productos más siguiendo el mismo formato -->
+    </div>
+</section>
+
+<section id="bocadillos" class="menu-category" style="--category-color: var(--color-bocadillos)">
+    <div class="container">
+        <h2 class="category-title">🥖 Bocadillos Tradicionales</h2>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Bocadillo de Calamares</h4>
+                <p>Calamares frescos rebozados con mayonesa casera</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Gluten">G</div>
+                    <div class="allergen" data-alergeno="Moluscos">M</div>
+                </div>
+            </div>
+            <span class="price">€7.50</span>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Serranito Clásico</h4>
+                <p>Lomo, jamón serrano, pimiento asado y tomate</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Gluten">G</div>
+                </div>
+            </div>
+            <span class="price">€6.90</span>
+        </div>
+
+        <!-- 23 productos más aquí -->
+    </div>
+</section>
+
+<!-- SECCIÓN MINIBOCADILLOS -->
+<section id="minibocadillos" class="menu-category" style="--category-color: var(--color-minibocadillos)">
+    <div class="container">
+        <h2 class="category-title">🥪 Minibocadillos</h2>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Mini de Tortilla</h4>
+                <p>Tortilla de patata clásica con cebolla</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Huevo">H</div>
+                </div>
+            </div>
+            <span class="price">€3.50</span>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Mini de Chorizo Picante</h4>
+                <p>Chorizo ibérico con pimientos del piquillo</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Gluten">G</div>
+                </div>
+            </div>
+            <span class="price">€3.20</span>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN VERMUTS -->
+<section id="vermuts" class="menu-category" style="--category-color: var(--color-vermuts)">
+    <!-- 25 productos con formato similar -->
+</section>
+
+<!-- SECCIÓN TAPEO -->
+<section id="tapeo" class="menu-category" style="--category-color: var(--color-tapeo)">
+    <!-- 25 productos -->
+</section>
+
+<!-- SECCIÓN TAPAS -->
+<section id="tapas" class="menu-category" style="--category-color: var(--color-tapas)">
+    <!-- 25 productos -->
+</section>
+
+<!-- SECCIÓN TORRADAS -->
+<section id="torradas" class="menu-category" style="--category-color: var(--color-torradas)">
+    <!-- 25 productos -->
+</section>
+
+<!-- SECCIÓN TABLAS -->
+<section id="tablas" class="menu-category" style="--category-color: var(--color-tablas)">
+    <!-- 25 productos -->
+</section>
+
+<!-- SECCIÓN ESPECIALES -->
+<section id="especiales" class="menu-category" style="--category-color: var(--color-especiales)">
+    <!-- 25 productos -->
+</section>
+
+<!-- SECCIÓN TRIOS -->
+<section id="trios" class="menu-category" style="--category-color: var(--color-trios)">
+    <!-- 25 productos -->
+</section>
+
+<!-- SECCIÓN CROQUETAS -->
+<section id="croquetas" class="menu-category" style="--category-color: var(--color-croquetas)">
+    <!-- 25 productos -->
+</section>
+
+<!-- SECCIÓN POSTRES -->
+<section id="postres" class="menu-category" style="--category-color: var(--color-postres)">
+    <div class="container">
+        <h2 class="category-title">🍨 Postres Caseros</h2>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Tarta de Queso Vasca</h4>
+                <p>Con coulis de frutos rojos</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Lácteos">L</div>
+                    <div class="allergen" data-alergeno="Huevo">H</div>
+                </div>
+            </div>
+            <span class="price">€5.50</span>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-info">
+                <h4>Flan de Huevo Tradicional</h4>
+                <p>Con nata montada y caramelo</p>
+                <div class="allergens">
+                    <div class="allergen" data-alergeno="Huevo">H</div>
+                    <div class="allergen" data-alergeno="Lácteos">L</div>
+                </div>
+            </div>
+            <span class="price">€4.90</span>
+        </div>
+    </div>
+</section>
+
+<!-- Footer y scripts anteriores -->
+
+</body>
+</html>
